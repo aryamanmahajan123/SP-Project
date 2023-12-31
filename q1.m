@@ -4,7 +4,7 @@ audiofile = "ipl-9284.wav";
 
 [x,Fs] = audioread(audiofile);
 
-a = 0.5;
+a = 0.5 ;
 n = 2;
 
 x = transpose(x);
